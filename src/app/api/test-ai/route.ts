@@ -25,6 +25,7 @@ export async function POST(req: Request) {
 
     const text = await generateResponse(prompt);
 
+    
     return new Response(JSON.stringify({ text }), {
       status: 200,
       headers: { 'Content-Type': 'application/json' },
