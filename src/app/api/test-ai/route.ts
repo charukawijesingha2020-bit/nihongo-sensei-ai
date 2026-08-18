@@ -6,7 +6,6 @@
  * - Uses generateResponse from src/services/gemini.service
  * - TypeScript compatible, with try/catch error handling
  */
-
 import generateResponse from '../../../services/gemini.service';
 
 
