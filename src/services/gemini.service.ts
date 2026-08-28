@@ -8,7 +8,6 @@
  * - Proper try/catch error handling
  * - TypeScript compatible
  */
-
 import {TextServiceClient} from '@google/generative-ai';
 
 const API_KEY = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
