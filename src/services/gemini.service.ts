@@ -6,7 +6,7 @@
  * - Exports async generateResponse(prompt: string): Promise<string>
  * - Uses latest Gemini model by default (can be overridden with GEMINI_MODEL)
  * - Proper try/catch error handling
- * - TypeScript compatible
+ * - 
  */
 import {TextServiceClient} from '@google/generative-ai';
 
