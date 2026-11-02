@@ -2,7 +2,7 @@
  * src/services/gemini.service.ts
  * Gemini service wrapper using @google/generative-ai
  *
- * - Reads API key from environment (GEMINI_API_KEY or GOOGLE_API_KEY)
+ * - 
  * - Exports async generateResponse(prompt: string): Promise<string>
  * - Uses latest Gemini model by default (can be overridden with GEMINI_MODEL)
  * - Proper try/catch error handling
